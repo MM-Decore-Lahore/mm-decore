@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MM Decore | Luxury Event & Birthday Decorator Lahore</title>
+    <meta name="description" content="MM Decore - Lahore's premier luxury event & birthday decorator based in Main Anarkali Bazar. Custom balloon arches, 3D theme cutouts, circular backdrops & Nikkah stages.">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            100: '#FAF4E3',
+                            200: '#F4E4BA',
+                            300: '#E2C881',
+                            400: '#D4AF37',
+                            500: '#C5A028',
+                            600: '#9B7A1B',
+                            700: '#715611',
+                        },
+                        velvet: {
+                            900: '#0B0914',
+                            800: '#131022',
+                            700: '#1C1833',
+                            600: '#282347'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #0B0914;
+            color: #F3F4F6;
+            overflow-x: hidden;
+        }
+        .font-serif-heading { font-family: 'Playfair Display', serif; }
+        .text-gold-gradient {
+            background: linear-gradient(135deg, #FFF0CA 0%, #D4AF37 50%, #AA7C11 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-border-glow {
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            box-shadow: 0 0 25px rgba(212, 175, 55, 0.08);
+            transition: all 0.3s ease;
+        }
+        .gold-border-glow:hover {
+            border-color: rgba(212, 175, 55, 0.7);
+            box-shadow: 0 0 35px rgba(212, 175, 55, 0.25);
+        }
+        .glass-header {
+            background: rgba(11, 9, 20, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+        }
+        .ambient-glow {
+            position: absolute;
+            width: 450px;
+            height: 450px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, rgba(11, 9, 20, 0) 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            animation: floatOrb 8s ease-in-out infinite alternate;
+        }
+        @keyframes floatOrb {
+            0% { transform: translateY(0px) scale(1); }
+            100% { transform: translateY(-35px) scale(1.1); }
+        }
+        /* Ripple pulse effect for sticky buttons */
+        @keyframes pulseGlow {
+            0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.6); }
+            70% { box-shadow: 0 0 0 18px rgba(16, 185, 129, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+        }
+        .pulse-whatsapp {
+            animation: pulseGlow 2s infinite;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-gold-400 selection:text-velvet-900">
+
+    <header class="fixed top-0 left-0 w-full z-50 glass-header transition-all duration-300">
+        <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-11 h-11 rounded-full border border-gold-400/60 flex items-center justify-center bg-velvet-800 text-gold-400 font-serif-heading font-bold text-xl group-hover:scale-105 transition-all shadow-[0_0_15px_rgba(212,175,55,0.3)]">
+                    MM
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-serif-heading text-2xl font-bold tracking-wider text-gold-gradient">MM DECORE</span>
+                    <span class="text-[10px] tracking-[0.25em] text-gray-400 uppercase font-medium -mt-1">Lahore • Anarkali</span>
+                </div>
+            </a>
+
+            <!-- Anchor Links for Google Ads Sitelinks -->
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium tracking-wide">
+                <a href="#about" class="text-gray-300 hover:text-gold-300 transition-colors">About Us</a>
+                <a href="#services" class="text-gray-300 hover:text-gold-300 transition-colors">Services</a>
+                <a href="#gallery" class="text-gray-300 hover:text-gold-300 transition-colors">Gallery</a>
+                <a href="#packages" class="text-gray-300 hover:text-gold-300 transition-colors">Packages</a>
+                <a href="#contact" class="text-gray-300 hover:text-gold-300 transition-colors">Contact</a>
+            </nav>
+
+            <div class="hidden sm:flex items-center space-x-4">
+                <a href="https://wa.me/923234348946?text=Hi%20MM%20Decore,%20I%20would%20like%20to%20inquire%20about%20event%20decoration%20services%20in%20Lahore." 
+                   target="_blank" 
+                   class="inline-flex items-center gap-2 bg-gradient-to-r from-gold-500 to-gold-400 text-velvet-900 font-semibold px-5 py-2.5 rounded-full shadow-lg hover:brightness-110 transition-all hover:scale-[1.02] text-sm">
+                    <i class="fab fa-whatsapp text-lg"></i> Instant Quote
+                </a>
+            </div>
+
+            <button id="mobile-menu-btn" class="md:hidden text-gray-300 hover:text-gold-400 focus:outline-none p-2">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-velvet-800 border-b border-gold-400/20 px-6 py-6 space-y-4">
+            <a href="#about" class="block text-gray-200 hover:text-gold-400 font-medium py-1">About Us</a>
+            <a href="#services" class="block text-gray-200 hover:text-gold-400 font-medium py-1">Services</a>
+            <a href="#gallery" class="block text-gray-200 hover:text-gold-400 font-medium py-1">Gallery</a>
+            <a href="#packages" class="block text-gray-200 hover:text-gold-400 font-medium py-1">Packages</a>
+            <a href="#contact" class="block text-gray-200 hover:text-gold-400 font-medium py-1">Contact</a>
+            <div class="pt-4 border-t border-gray-700/50">
+                <a href="https://wa.me/923234348946?text=Hi%20MM%20Decore,%20I%20would%20like%20to%20inquire%20about%20event%20decoration%20services%20in%20Lahore." 
+                   target="_blank" 
+                   class="w-full text-center bg-gold-400 text-velvet-900 font-bold py-3 rounded-full flex items-center justify-center gap-2">
+                    <i class="fab fa-whatsapp text-xl"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative min-h-screen flex items-center justify-center pt-28 pb-16 px-4 overflow-hidden">
+        <div class="ambient-glow -top-10 -left-10"></div>
+        <div class="ambient-glow bottom-0 right-0" style="animation-delay: 3s;"></div>
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-velvet-700/60 via-velvet-900 to-velvet-900 z-0"></div>
+
+        <div class="relative z-10 max-w-5xl mx-auto text-center space-y-8" data-aos="fade-up" data-aos-duration="1000">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold-400/10 border border-gold-400/30 text-gold-300 text-xs sm:text-sm font-medium tracking-widest uppercase mb-2 backdrop-blur-md">
+                <i class="fas fa-crown text-gold-400 text-xs"></i> Lahore's Premier Event Decorators • Main Anarkali
+            </div>
+
+            <h1 class="font-serif-heading text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight leading-[1.15] text-white">
+                Transforming Everyday Moments Into <span class="text-gold-gradient italic block sm:inline">Grand Masterpieces</span>
+            </h1>
+
+            <p class="max-w-3xl mx-auto text-gray-300 text-base sm:text-xl font-light leading-relaxed">
+                Specialized in luxury birthday setups, circular backdrops, 3D theme cutouts, custom balloon installations, and grand wedding stages across DHA, Gulberg, Bahria Town & Lahore.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+                <a href="#packages" class="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-gold-400 via-gold-300 to-gold-500 text-velvet-900 font-bold text-base shadow-[0_0_25px_rgba(212,175,55,0.4)] hover:shadow-[0_0_35px_rgba(212,175,55,0.7)] transition-all transform hover:-translate-y-0.5">
+                    Explore Luxury Packages
+                </a>
+                <a href="https://wa.me/923234348946?text=Hi%20MM%20Decore,%20I%20would%20like%20to%20inquire%20about%20event%20decoration%20services%20in%20Lahore." 
+                   target="_blank"
+                   class="w-full sm:w-auto px-8 py-4 rounded-full bg-velvet-800 border border-gold-400/40 text-gold-200 hover:text-white hover:border-gold-400 font-semibold text-base transition-all flex items-center justify-center gap-2">
+                    <i class="fab fa-whatsapp text-emerald-400 text-xl"></i> WhatsApp Instant Inquiry
+                </a>
+            </div>
+
+            <!-- Live Animated Counter Stats -->
+            <div class="pt-12 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto text-left" data-aos="fade-up" data-aos-delay="200">
+                <div class="p-4 rounded-2xl bg-velvet-800/60 border border-gold-400/15 backdrop-blur-sm">
+                    <div class="text-gold-400 font-bold text-2xl font-serif-heading"><span class="counter" data-target="500">0</span>+</div>
+                    <div class="text-xs text-gray-400">Events Managed in Lahore</div>
+                </div>
+                <div class="p-4 rounded-2xl bg-velvet-800/60 border border-gold-400/15 backdrop-blur-sm">
+                    <div class="text-gold-400 font-bold text-2xl font-serif-heading"><span class="counter" data-target="100">0</span>%</div>
+                    <div class="text-xs text-gray-400">Custom Theme Customization</div>
+                </div>
+                <div class="p-4 rounded-2xl bg-velvet-800/60 border border-gold-400/15 backdrop-blur-sm">
+                    <div class="text-gold-400 font-bold text-2xl font-serif-heading">3D Cutouts</div>
+                    <div class="text-xs text-gray-400">& Acrylic Cake Stands</div>
+                </div>
+                <div class="p-4 rounded-2xl bg-velvet-800/60 border border-gold-400/15 backdrop-blur-sm">
+                    <div class="text-gold-400 font-bold text-2xl font-serif-heading">Anarkali</div>
+                    <div class="text-xs text-gray-400">Bazar Direct Workshop</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-velvet-800/40 relative border-t border-b border-gold-400/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center" data-aos="fade-right">
+                <div class="relative">
+                    <div class="aspect-[4/3] rounded-3xl overflow-hidden gold-border-glow bg-velvet-700">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80" 
+                             alt="MM Decore Luxury Event Setup Lahore" 
+                             class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700">
+                    </div>
+                    <div class="absolute -bottom-6 -right-2 sm:right-6 bg-velvet-900/90 border border-gold-400/50 backdrop-blur-md p-5 rounded-2xl shadow-2xl max-w-xs">
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-full bg-gold-400/20 flex items-center justify-center text-gold-400 text-xl font-bold">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white text-sm">Main Anarkali, Lahore</h4>
+                                <p class="text-xs text-gray-400">In-house workshop & manufacturing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-6" data-aos="fade-left">
+                    <div class="inline-block px-3 py-1 rounded-full bg-gold-400/10 text-gold-400 text-xs font-semibold uppercase tracking-widest">
+                        About MM Decore
+                    </div>
+                    <h2 class="font-serif-heading text-3xl sm:text-5xl font-bold text-white leading-tight">
+                        Crafting Unforgettable Visual Stories Across Lahore
+                    </h2>
+                    <p class="text-gray-300 leading-relaxed text-base sm:text-lg">
+                        Based in the heart of Lahore at **Main Anarkali Bazar**, **MM Decore** is a full-service event styling atelier. We specialize in turning ordinary venues into extraordinary visual experiences.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed text-sm sm:text-base">
+                        Whether you are hosting an intimate kids' birthday party, a grand milestone, a dream Nikkah stage backdrop, or a corporate gala—our craftsmen design custom circular backdrops, balloon arches, and 3D theme cutouts tailored to your budget.
+                    </p>
+                    <div class="pt-4">
+                        <a href="tel:+923234348946" class="inline-flex items-center gap-3 text-gold-300 font-semibold hover:text-gold-200 transition-colors">
+                            <span class="w-10 h-10 rounded-full bg-gold-400/20 flex items-center justify-center text-gold-400">
+                                <i class="fas fa-phone-alt"></i>
+                            </span>
+                            Direct Call: +92 323 4348946
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16" data-aos="fade-up">
+                <span class="text-gold-400 text-xs font-semibold uppercase tracking-widest">Our Expertise</span>
+                <h2 class="font-serif-heading text-3xl sm:text-5xl font-bold text-white">Bespoke Event Services</h2>
+                <p class="text-gray-400 text-sm sm:text-base">High-end aesthetic designs for DHA, Gulberg, Bahria Town, and all areas of Lahore.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-velvet-800 rounded-2xl p-8 gold-border-glow flex flex-col justify-between group hover:-translate-y-2 transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-gold-400/10 border border-gold-400/30 flex items-center justify-center text-gold-400 text-2xl mb-6 group-hover:bg-gold-400 group-hover:text-velvet-900 transition-colors">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                        <h3 class="font-serif-heading text-2xl font-bold text-white mb-3">Birthday Decor & Themes</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                            Custom 1st birthdays, milestone parties, character theme cutouts, and organic balloon garland setups.
+                        </p>
+                    </div>
+                    <a href="https://wa.me/923234348946?text=Hi%20MM%20Decore,%20I%20am%20interested%20in%20Birthday%20Decoration." target="_blank" class="text-gold-400 font-semibold text-sm flex items-center gap-2 group-hover:text-gold-300">
+                        Inquire Theme Options <i class="fas fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+
+                <div class="bg-velvet-800 rounded-2xl p-8 gold-border-glow flex flex-col justify-between group hover:-translate-y-2 transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-gold-400/10 border border-gold-400/30 flex items-center justify-center text-gold-400 text-2xl mb-6 group-hover:bg-gold-400 group-hover:text-velvet-900 transition-colors">
+                            <i class="fas fa-rings-wedding"></i>
+                        </div>
+                        <h3 class="font-serif-heading text-2xl font-bold text-white mb-3">Nikkah & Bridal Shower</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                            Floral backdrop walls, mirror Nikkah contract frames, home stage setups, and romantic ambient lighting.
+                        </p>
+                    </div>
+                    <a href="https://wa.me/923234348946?text=Hi%20MM%20Decore,%20I%20am%20interested%20in%20Nikkah%20Stage%20Decor." target="_blank" class="text-gold-400 font-semibold text-sm flex items-center gap-2 group-hover:text-gold-300">
+                        Inquire Stage Decor <i class="fas fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+
+                <div class="bg-velvet-800 rounded-2xl p-8 gold-border-glow flex flex-col justify-between group hover:-translate-y-2 transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-gold-400/10 border border-gold-400/30 flex items-center justify-center text-gold-400 text-2xl mb-6 group-hover:bg-gold-400 group-hover:text-velvet-900 transition-colors">
+                            <i class="fas fa-vector-square"></i>
+                        </div>
+                        <h3 class="font-serif-heading text-2xl font-bold text-white mb-3">Backdrops & Acrylic Stands</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                            Trending metal circular rings, shimmer sequin walls, acrylic clear cake pedestals, and neon sign rentals.
+                        </p>
+                    </div>
+                    <a href="https://wa.me/923234348946?text=Hi%20MM%20Decore,%20I%20am%20interested%20in%20Backdrops%20and%20Props." target="_blank" class="text-gold-400 font-semibold text-sm flex items-center gap-2 group-hover:text-gold-300">
+                        Inquire Backdrop Props <i class="fas fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-24 bg-velvet-800/30 border-t border-gold-400/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12" data-aos="fade-up">
+                <div>
+                    <span class="text-gold-400 text-xs font-semibold uppercase tracking-widest">Our Work Portfolio</span>
+                    <h2 class="font-serif-heading text-3xl sm:text-5xl font-bold text-white mt-2">Recent Setup Showcase</h2>
+                </div>
+
+                <!-- Gallery Filter Buttons -->
+                <div class="flex flex-wrap gap-2 mt-6 md:mt-0" id="gallery-filters">
+                    <button class="filter-btn active px-4 py-2 rounded-full bg-gold-400 text-velvet-900 text-xs font-bold transition-all" data-filter="all">All Setups</button>
+                    <button class="filter-btn px-4 py-2 rounded-full bg-velvet-800 border border-gold-400/30 text-gray-300 text-xs font-bold hover:border-gold-400 transition-all" data-filter="birthday">Birthdays</button>
+                    <button class="filter-btn px-4 py-2 rounded-full bg-velvet-800 border border-gold-400/30 text-gray-300 text-xs font-bold hover:border-gold-400 transition-all" data-filter="nikkah">Nikkah Stages</button>
+                    <button class="filter-btn px-4 py-2 rounded-full bg-velvet-800 border border-gold-400/30 text-gray-300 text-xs font-bold hover:border-gold-400 transition-all" data-filter="backdrops">Backdrop Rings</button>
+                </div>
+            </div>
+
+            <!-- Gallery Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="gallery-grid">
+                <div class="gallery-item birthday group relative aspect-[4/3] rounded-2xl overflow-hidden bg-velvet-700 gold-border-glow" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80" alt="Birthday Setup" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-velvet-900 via-transparent to-transparent opacity-80"></div>
+                    <div class="absolute bottom-4 left-4 right-4 p-2">
+                        <span class="text-xs text-gold-400 uppercase font-semibold">DHA Phase 5 • Birthday</span>
+                        <h4 class="text-white font-serif-heading font-bold text-lg">Pastel Theme & Arch</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item nikkah group relative aspect-[4/3] rounded-2xl overflow-hidden bg-velvet-700 gold-border-glow" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80" alt="Nikkah Stage" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-velvet-900 via-transparent to-transparent opacity-80"></div>
+                    <div class="absolute bottom-4 left-4 right-4 p-2">
+                        <span class="text-xs text-gold-400 uppercase font-semibold">Gulberg • Nikkah Stage</span>
+                        <h4 class="text-white font-serif-heading font-bold text-lg">White Rose & Gold Stage</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item backdrops group relative aspect-[4/3] rounded-2xl overflow-hidden bg-velvet-700 gold-border-glow" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=800&q=80" alt="Circular Backdrop" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-velvet-900 via-transparent to-transparent opacity-80"></div>
+                    <div class="absolute bottom-4 left-4 right-4 p-2">
+                        <span class="text-xs text-gold-400 uppercase font-semibold">Bahria Town • Custom Ring</span>
+                        <h4 class="text-white font-serif-heading font-bold text-lg">Metallic Ring & Neon Sign</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16" data-aos="fade-up">
+                <span class="text-gold-400 text-xs font-semibold uppercase tracking-widest">Transparent Packages</span>
+                <h2 class="font-serif-heading text-3xl sm:text-5xl font-bold text-white">Decoration Packages</h2>
+                <p class="text-gray-400 text-sm sm:text-base">Customizable based on your venue size in Lahore.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+                <!-- Silver Package -->
+                <div class="bg-velvet-800 rounded-3xl p-8 gold-border-glow flex flex-col justify-between" data-aos="fade-up" data-aos-delay="100">
+                    <div class="space-y-6">
+                        <div class="border-b border-gray-700/50 pb-6">
+                            <span class="text-xs uppercase text-gray-400 tracking-wider font-semibold">Standard Birthday</span>
+                            <h3 class="font-serif-heading text-3xl font-bold text-white mt-1">Silver Package</h3>
+                        </div>
+                        <ul class="space-y-4 text-sm text-gray-300">
+                            <li><i class="fas fa-check text-gold-400 me-2"></i> Standard Circular Backdrop Ring</li>
+                            <li><i class="fas fa-check text-gold-400 me-2"></i> Double-color Balloon Arch Garland</li>
+                            <li><i class="fas fa-check text-gold-400 me-2"></i> Happy Birthday Neon Sign Rental</li>
+                            <li><i class="fas fa-check text-gold-400 me-2"></i> Setup & Dismantling included</li>
+                        </ul>
+                    </div>
+                    <div class="pt-8 mt-6 border-t border-gray-700/50 space-y-3">
+                        <button onclick="openModal('Silver Package', 'Includes Standard Circular Ring, 2-color Organic Balloon Garland, Neon Sign, and full delivery & setup team in Lahore.')" class="w-full text-center py-3 px-6 rounded-full bg-velvet-700 border border-gold-400/40 text-gold-300 hover:bg-gold-400 hover:text-velvet-900 font-bold transition-all text-sm">
+                            View Package Details
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gold Package -->
+                <div class="bg-gradient-to-b from-velvet-700 to-velvet-800 rounded-3xl p-8 border-2 border-gold-400 shadow-[0_0_35px_rgba(212,175,55,0.2)] flex flex-col justify-between relative transform lg:-translate-y-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-gold-500 to-gold-300 text-velvet-900 text-xs uppercase font-extrabold px-4 py-1 rounded-full">
+                        Most Popular in Lahore
+                    </div>
+                    <div class="space-y-6 pt-2">
+                        <div class="border-b border-gold-400/30 pb-6">
+                            <span class="text-xs uppercase text-gold-300 tracking-wider font-semibold">Grand Theme Birthday</span>
+                            <h3 class="font-serif-heading text-3xl font-bold text-white mt-1">Gold Theme Package</h3>
+                        </div>
+                        <ul class="space-y-4 text-sm text-gray-200">
+                            <li><i class="fas fa-check text-gold-400 me-2"></i> Large Custom Printed Theme Backdrop</li>
+                            <li><i class="fas fa-check text-gold-400 me-2"></i> Multi-color Premium Balloon Arch</li>
+                            <li><i class="fas fa-check text-gold-400 me-2"></i> 2-3 High-Quality 3D Theme Cutouts</li>
+                            <li><i class="fas fa-check text-gold-400 me-2"></i> 3 Acrylic Cake Stands / Pedestals</li>
+                        </ul>
+                    </div>
+                    <div class="pt-8 mt-6 border-gold-400/30 space-y-3">
+                        <button onclick="openModal('Gold Theme Package', 'Includes Custom Theme Backdrop, Multi-color Balloon Arch, 3D Character Cutouts, 3 Acrylic Cylinders for Cake & Welcome Board.')" class="w-full text-center py-3 px-6 rounded-full bg-gradient-to-r from-gold-400 to-gold-500 text-velvet-900 font-extrabold hover:brightness-110 shadow-lg transition-all text-sm">
+                            View Package Details
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Platinum Package -->
+                <div class="bg-velvet-800 rounded-3xl p-8 gold-border-glow flex flex-col justify-between" data-aos="fade-up" data-aos-delay="300">
+                    <div class="space-y-6">
+                        <div class="border-b border-gray-700/50 pb-6">
+                            <span class="text-xs uppercase text-gray-400 tracking-wider font-semibold">Grand Nikkah / VIP Event</span>
+                            <h3 class="font-serif-heading text-3xl font-bold text-white mt-1">Platinum Nikkah Stage</h3>
+                        </div>
+                        <ul class="space-y-4 text-sm text-gray-300">
+                            <li><i class="fas fa-check text-gold-400 me-2"></i> Full Premium Floral Backdrop Stage</li>
+                            <li><i class="fas fa-check text-gold-400 me-2"></i> Nikkah Sofa & Seating Arrangement</li>
+                            <li><i class="fas fa-check text-gold-400 me-2"></i> Customized Nikkah Frame & Candles</li>
+                            <li><i class="fas fa-check text-gold-400 me-2"></i> Dedicated Event Supervisor on site</li>
+                        </ul>
+                    </div>
+                    <div class="pt-8 mt-6 border-t border-gray-700/50 space-y-3">
+                        <button onclick="openModal('Platinum Nikkah Stage', 'Complete Nikkah stage setup with premium fresh/artificial florals, luxury bridal couch, ambient spotlighting, and personalized mirror Nikkah frame.')" class="w-full text-center py-3 px-6 rounded-full bg-velvet-700 border border-gold-400/40 text-gold-300 hover:bg-gold-400 hover:text-velvet-900 font-bold transition-all text-sm">
+                            View Package Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-velvet-800/50 border-t border-gold-400/10 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+                <div class="space-y-8" data-aos="fade-right">
+                    <div>
+                        <span class="text-gold-400 text-xs font-semibold uppercase tracking-widest">Get In Touch</span>
+                        <h2 class="font-serif-heading text-3xl sm:text-5xl font-bold text-white mt-2">Visit Our Anarkali Workshop or Call Us</h2>
+                        <p class="text-gray-400 text-sm sm:text-base mt-4">We cater to home setups, halls, and lawns across Lahore.</p>
+                    </div>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4 p-5 rounded-2xl bg-velvet-800 gold-border-glow">
+                            <div class="w-12 h-12 rounded-xl bg-gold-400/20 flex items-center justify-center text-gold-400 text-xl shrink-0">
+                                <i class="fas fa-map-marked-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold text-base">Workshop Address</h4>
+                                <p class="text-gray-300 text-sm mt-1">Main Anarkali Bazar, Lahore, Pakistan</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-5 rounded-2xl bg-velvet-800 gold-border-glow">
+                            <div class="w-12 h-12 rounded-xl bg-gold-400/20 flex items-center justify-center text-gold-400 text-xl shrink-0">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold text-base">Direct Booking Hotline</h4>
+                                <p class="text-gray-300 text-sm mt-1">+92 323 4348946</p>
+                                <a href="https://wa.me/923234348946" target="_blank" class="inline-block text-xs font-bold text-emerald-400 hover:underline mt-1">
+                                    Click here to chat instantly on WhatsApp →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Booking Form -->
+                <div class="bg-velvet-800 p-8 rounded-3xl gold-border-glow" data-aos="fade-left">
+                    <h3 class="font-serif-heading text-2xl font-bold text-white mb-2">Send an Instant Booking Inquiry</h3>
+                    <p class="text-xs text-gray-400 mb-6">Fill out this quick form to receive an estimated quote directly on WhatsApp.</p>
+
+                    <form id="booking-form" class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-semibold uppercase text-gray-300 mb-1">Your Name</label>
+                            <input type="text" id="client-name" required placeholder="e.g. Ali Khan" class="w-full bg-velvet-900 border border-gray-700 focus:border-gold-400 rounded-xl px-4 py-3 text-sm text-white focus:outline-none">
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-semibold uppercase text-gray-300 mb-1">Event Type</label>
+                                <select id="event-type" class="w-full bg-velvet-900 border border-gray-700 focus:border-gold-400 rounded-xl px-4 py-3 text-sm text-white focus:outline-none">
+                                    <option value="Birthday Decor">Birthday Party</option>
+                                    <option value="Nikkah / Stage">Nikkah / Stage</option>
+                                    <option value="Bridal Shower">Bridal / Baby Shower</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold uppercase text-gray-300 mb-1">Location in Lahore</label>
+                                <input type="text" id="event-location" placeholder="e.g. DHA Phase 6" class="w-full bg-velvet-900 border border-gray-700 focus:border-gold-400 rounded-xl px-4 py-3 text-sm text-white focus:outline-none">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold uppercase text-gray-300 mb-1">Event Date</label>
+                            <input type="date" id="event-date" class="w-full bg-velvet-900 border border-gray-700 focus:border-gold-400 rounded-xl px-4 py-3 text-sm text-white focus:outline-none">
+                        </div>
+                        <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-gold-400 via-gold-300 to-gold-500 text-velvet-900 font-extrabold text-sm hover:brightness-110 transition-all flex items-center justify-center gap-2">
+                            <i class="fab fa-whatsapp text-lg"></i> Send Quote Request to WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-velvet-900 border-t border-gold-400/10 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full border border-gold-400/50 flex items-center justify-center text-gold-400 font-serif-heading font-bold text-sm">MM</div>
+                <span class="font-serif-heading text-xl font-bold text-gold-gradient">MM DECORE</span>
+            </div>
+            <p class="text-xs text-gray-500 text-center">© 2026 MM Decore Lahore. Main Anarkali Bazar. All rights reserved.</p>
+            <div class="flex space-x-4 text-gray-400 text-lg">
+                <a href="https://wa.me/923234348946" target="_blank" class="hover:text-gold-400"><i class="fab fa-whatsapp"></i></a>
+                <a href="tel:+923234348946" class="hover:text-gold-400"><i class="fas fa-phone"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- STICKY FLOATING BUTTONS WITH RIPPLE EFFECT -->
+    <a href="https://wa.me/923234348946?text=Hi%20MM%20Decore,%20I%20would%20like%20to%20inquire." target="_blank" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-all hover:scale-110 pulse-whatsapp">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+    <a href="tel:+923234348946" class="fixed bottom-6 left-6 z-50 bg-gold-400 hover:bg-gold-300 text-velvet-900 w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-all hover:scale-110">
+        <i class="fas fa-phone-alt text-2xl"></i>
+    </a>
+
+    <!-- PACKAGE MODAL POPUP -->
+    <div id="pkg-modal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-velvet-800 border border-gold-400 max-w-md w-full rounded-3xl p-6 relative space-y-4">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white"><i class="fas fa-times text-xl"></i></button>
+            <h3 id="modal-title" class="font-serif-heading text-2xl font-bold text-gold-gradient">Package Details</h3>
+            <p id="modal-body" class="text-sm text-gray-300 leading-relaxed"></p>
+            <div class="pt-4">
+                <a id="modal-wa-btn" href="#" target="_blank" class="w-full text-center py-3 rounded-full bg-emerald-500 text-white font-bold flex items-center justify-center gap-2">
+                    <i class="fab fa-whatsapp"></i> Book This Package on WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+        document.querySelectorAll('#mobile-menu a').forEach(link => link.addEventListener('click', () => mobileMenu.classList.add('hidden')));
+
+        // Gallery Filtering
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => {
+                    b.classList.remove('bg-gold-400', 'text-velvet-900');
+                    b.classList.add('bg-velvet-800', 'text-gray-300');
+                });
+                btn.classList.remove('bg-velvet-800', 'text-gray-300');
+                btn.classList.add('bg-gold-400', 'text-velvet-900');
+
+                const filter = btn.getAttribute('data-filter');
+                galleryItems.forEach(item => {
+                    if (filter === 'all' || item.classList.contains(filter)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Booking Form to WhatsApp
+        document.getElementById('booking-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('client-name').value;
+            const eventType = document.getElementById('event-type').value;
+            const location = document.getElementById('event-location').value;
+            const date = document.getElementById('event-date').value;
+
+            const text = `Hi MM Decore! I want to inquire about event decoration:%0A%0A*Name:* ${encodeURIComponent(name)}%0A*Event:* ${encodeURIComponent(eventType)}%0A*Location:* ${encodeURIComponent(location)}%0A*Date:* ${encodeURIComponent(date)}`;
+            window.open(`https://wa.me/923234348946?text=${text}`, '_blank');
+        });
+
+        // Modal Functions
+        function openModal(title, text) {
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-body').innerText = text;
+            document.getElementById('modal-wa-btn').href = `https://wa.me/923234348946?text=Hi%20MM%20Decore,%20I%20want%20to%20book%20the%20${encodeURIComponent(title)}`;
+            document.getElementById('pkg-modal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('pkg-modal').classList.add('hidden');
+        }
+
+        // Counter Animation
+        const counters = document.querySelectorAll('.counter');
+        let animated = false;
+
+        window.addEventListener('scroll', () => {
+            const scrollPos = window.scrollY + window.innerHeight;
+            if (!animated && scrollPos > 800) {
+                animated = true;
+                counters.forEach(counter => {
+                    const target = +counter.getAttribute('data-target');
+                    let count = 0;
+                    const step = Math.ceil(target / 40);
+                    const update = () => {
+                        count += step;
+                        if (count < target) {
+                            counter.innerText = count;
+                            setTimeout(update, 30);
+                        } else {
+                            counter.innerText = target;
+                        }
+                    };
+                    update();
+                });
+            }
+        });
+    </script>
+</body>
+</html>
